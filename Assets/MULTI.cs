@@ -11,8 +11,8 @@ public class MULTI : MonoBehaviour
        for (int i = 5; i ==5 ; i++)
        for (int j = 1; j <11 ; j++)
        {
+            Debug.Log(i + " * " + j +" = ");
             Debug.Log (i * j);
-            Debug.Log ();
        }
        
     }
